@@ -63,7 +63,7 @@ public class Avaliacao {
    | 01  | nota1 > 10 ou nota1 < 0 ou nota2 > 10 ou nota2 < 0 ou faltas < 0 ou faltas > cargaHoraria | TrowException() de valores inválidos |        |
    | 02  |                                   percentualFaltas > 25                                   |         Reprovado por Falta.         |        |
    | 03  |                           percentualFaltas >= 25 e media < 3.0                            |         Reprovado por Média.         |        |
-   | 04  |                    percentualFaltas >= 25 e media >= 3.0 e media < 6.0                    |             Prova Extra.             |        |
+   | 04  |                    percentualFaltas >= 25, media >= 3.0 e media < 6.0                     |             Prova Extra.             |        |
    | 05  |                           percentualFaltas >= 25 e media >= 6.0                           |              Aprovado.               |        |
 
    INSTRUÇÕES:
